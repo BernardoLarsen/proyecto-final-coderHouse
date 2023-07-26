@@ -1,11 +1,15 @@
 import './App.css'
-import {CollapsibleExample} from './components/NavBar'
+import { ItemListContainer } from './components/ItemListContainer';
+import {NavBar} from './components/NavBar'
 
 function App() {
+  return(
 <>
-<CollapsibleExample></CollapsibleExample>
+<div className='navBar'><NavBar/> </div>
+<ItemListContainer  greeting = "Bienvenidos a mi Pagina"/>
 </>
 
+  );
 }
 
 export default App
